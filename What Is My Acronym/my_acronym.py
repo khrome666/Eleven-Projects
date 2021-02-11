@@ -1,6 +1,3 @@
-from abc import abstractclassmethod
-
-
 again = True
 while again:
     full_version = input('Enter the full description of an organization or concept:')
