@@ -7,4 +7,4 @@ while again:
         print(f'That\'s an {odd_or_even_number} number. Have another?')
         again = input()[0].lower() == 'y'
     except:
-        print('That is not a valid number!')
+        print('That is not a valid number! Try again.')
